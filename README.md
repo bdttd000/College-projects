@@ -2,4 +2,4 @@
 
 Live codes:
 
-- binary search and merge sort: https://jakubwartak.pl/github/college-projects/binary-search-and%20merge-sort/
+- binary search and merge sort: https://jakubwartak.pl/github/college-projects/binary-search-and-merge-sort/
