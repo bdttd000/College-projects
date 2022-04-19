@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./includes/style.css">
+  <title>Binary search & Merge sort</title>
+</head>
+<body>
+
+  <div class="container">
+    <div>----- BINARY SEARCH -----</div><br>
+    <div>Our array contains numbers from 1 to 100 with indexes like: array[0]=1, array[1]=2, ...</div>
+    <div>We draw one number from 1 to 120</div><br>
+    <div>Our number: <span id="binary_search"></span></div>
+    <button onclick="print_binary_search()">binary_search</button>
+    <div>Index of our number: <span id="binary_index"></span></div>
+  </div>
+
+  <div class="container">
+    <div>----- MERGE SORT -----</div><br>
+    <div>Our array will contain numbers from 10 to 1 with indexes like: array[0]=10, array[1]=9, ...</div>
+    <button onclick="print_merge_sort()">merge_sort</button>
+    <div>Sorted array: <span id="merge_sort_span"></span></div>
+  </div>
+
+  <script src="./includes/binary_search.js" defer></script>
+  <script src="./includes/merge_sort.js"></script>
+</body>
+</html>
